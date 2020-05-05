@@ -27,7 +27,6 @@ All the steps above are shown in order individually in the Python Jupyter Notebo
 [image10]: report_images/perspective_post.jpg
 [image11]: report_images/lane_detect.jpg
 [image12]: report_images/final_image.jpg
-[video1]: report_images/project_vid.mp4
 
 ## Camera Calibration using Chessboard Images
 Before calibrating, libraries are imported as shown in the first code cell. Including numpy (math), OpenCV (computer vision), glob (grouped images IO), matplotlib (plotting), moviepy (movie IO), and IPython (for in-text video display).
@@ -102,7 +101,6 @@ Before Transform:
 After Transform:
 ![][image10]
 
-
 ### 4. Land Boundary Detection and Vehicle Position
 Lane boundary detection is the most complex part of the pipeline and this was broken down into four different functions under this step: top-level function `detect_lane()` (incl. visuals creation), polynomial fitting `fit_poly()`, window histogram `windowHistograms()`, and the detection around the previous polynomial `searchAroundPoly()`. The vehicle position calculation is embedded into the top-level function. This code is displayed in code block 6 to 9.
 
@@ -144,11 +142,8 @@ The text is overlaid using the `cv2.putText()` function with specified parameter
 A sample output is shown below:
 ![][image12]
 
-
 ## Final Video Output
-See _ for a video link to my project video using the pipeline described above.
-[Project Video](https://youtu.be/SRAHh0PokSw)
-
+See [Project Video](https://youtu.be/SRAHh0PokSw) for my project video using the pipeline described above.
 
 ## Discussion
 
