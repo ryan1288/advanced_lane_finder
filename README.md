@@ -147,7 +147,7 @@ A sample output is shown below:
 
 ## Final Video Output
 See _ for a video link to my project video using the pipeline described above.
-![][video1]
+[Project Video](https://youtu.be/SRAHh0PokSw)
 
 
 ## Discussion
