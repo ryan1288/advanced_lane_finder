@@ -130,7 +130,7 @@ An example of the final result is shown below:
 The lane curvature is calculated using the left/right fit provided in meters shown in code block 10 in the notebook.
 
 Using the curve as `f(y) = Ay^2 + By + C`, the curvature can be estimated as: 
-`r = (1+(2Ay+B)^2)^(3/2)/|2A|`
+$$r = (1+(2Ay+B)^2)^(3/2)/|2A|$$
 
 The polynomial is a function of y to avoid vertical lines that will have infinite slope as a f(x). The values were checked against US road curvature standards, and the magnitude is on the same order.
 
